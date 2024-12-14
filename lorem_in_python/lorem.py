@@ -6,7 +6,7 @@ l = int(input("enter the number rows in ur paragraph:\n"))
 
 with open("lorem_in_python/text.txt","w") as f:
     for i in range(l):
-        for j in range(70):
+        for j in range(100):
             p = random.randint(0,26)
             f.write(alpha[p])
         f.write("\n")
